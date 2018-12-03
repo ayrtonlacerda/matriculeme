@@ -22,13 +22,21 @@ const Login = props => (
           <Icon name="md-person" size={26} color="#222" style={styles.icon} />
           <TextInput
             style={styles.input}
+            autoCapitalize="none"
+            autoCorrect={false}
+            placeholder="Digite seu CPF"
             underlineColorAndroid="rgba(0,0,0,0)"
-            selectionColor="#333"
           />
         </View>
         <View style={styles.forms}>
-          <Icon name="md-lock" size={26} color="#222" style={styles.icon} />
-          <TextInput style={styles.input} underlineColorAndroid="rgba(0,0,0,0)" />
+          <Icon name="md-lock" size={27} color="#222" style={styles.icon} />
+          <TextInput
+            style={styles.input}
+            autoCapitalize="none"
+            autoCorrect={false}
+            placeholder="senha"
+            underlineColorAndroid="rgba(0,0,0,0)"
+          />
         </View>
       </View>
     </View>

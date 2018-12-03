@@ -40,9 +40,9 @@ const styles = StyleSheet.create({
   },
   input: {
     width: 230,
-    height: 20,
-    marginTop: 30,
-    color: '#333'
+    height: 40,
+    marginTop: 10,
+    color: '#333',
   },
   form: {
     marginBottom: 15
@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1
   },
   icon: {
-    marginRight: 10
+    marginRight: 10,
+    top: 4,
   },
   touch: {
     //position: 'absolute',
