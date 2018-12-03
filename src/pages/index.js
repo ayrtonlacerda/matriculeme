@@ -1,3 +1,5 @@
 import Login from './login/login';
+import Alunos from './alunos/alunos';
+import Oferta from './oferta/oferta';
 
-export { Login };
+export { Login, Alunos, Oferta };
