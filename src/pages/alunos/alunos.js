@@ -1,13 +1,20 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-// import styles from './ofertastyles';
-import { Header } from '../../components';
+import styles from './alunosstyles';
+import { Header, Search, Card } from '../../components';
 
 const Alunos = () => (
-  <View>
+  <View style={styles.container}>
     <Header title="Alunos" showExit />
-    <Text>Alunos</Text>
+    <View style={styles.safearea}>
+      <Search description="Digite a matricula ou nome do aluno" />
+      <Card showAluno />
+      <Card showAluno />
+      <Card showAluno />
+      <Card showAluno />
+      <Card showAluno />
+    </View>
   </View>
 );
 

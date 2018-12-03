@@ -10,6 +10,7 @@ export default {
   primary: '#0f213a',
   secundary: '#eda840',
   error: '#FF0000',
+  green: '#09900F',
 
   transparent: 'transparent',
   darkTransparent: 'rgba(0, 0, 0, 0.6)',

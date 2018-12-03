@@ -1,14 +1,22 @@
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 import { colors } from './styles';
 
-import { Login, Alunos, Oferta } from './pages';
+import {
+  Login,
+  Alunos,
+  Disciplina,
+  Oferta,
+  Aluno,
+} from './pages';
 
 const Routes = createStackNavigator(
   {
     Login: { screen: Login },
+    Oferta: { screen: Oferta },
+    Aluno: { screen: Aluno },
     Logged: createBottomTabNavigator(
       {
-        Oferta: { screen: Oferta },
+        Disciplina: { screen: Disciplina },
         Alunos: { screen: Alunos }
       },
       {

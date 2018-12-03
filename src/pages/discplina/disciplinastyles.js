@@ -3,7 +3,12 @@ import { colors } from '../../styles';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+  },
+  safearea: {
+    flex: 1,
+    alignItems: 'center',
+    paddingHorizontal: 15,
   }
 });
 
