@@ -13,11 +13,11 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 10, height: 10 },
     shadowOpacity: 1,
     shadowRadius: 15,
-    margin: 10,
+    margin: 15
   },
   input: {
     fontSize: 16,
-    color: colors.white,
+    color: colors.white
   }
 });
 

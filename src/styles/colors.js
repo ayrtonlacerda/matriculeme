@@ -1,6 +1,7 @@
 export default {
   white: '#FFF',
   lighter: '#f7f7f7',
+  lighter2: '#e9e9e9',
   light: '#DDD',
   regular: '#999',
   dark: '#666',
@@ -15,5 +16,5 @@ export default {
   transparent: 'transparent',
   darkTransparent: 'rgba(0, 0, 0, 0.6)',
   halfDarkTransparent: 'rgba(0, 0, 0, 0.3)',
-  whiteTransparent: 'rgba(255, 255, 255, 0.3)',
+  whiteTransparent: 'rgba(255, 255, 255, 0.3)'
 };

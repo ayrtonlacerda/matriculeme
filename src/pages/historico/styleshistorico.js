@@ -5,10 +5,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1
   },
-  safearea: {
-    flex: 1,
-    alignItems: 'center'
-    // paddingHorizontal: 15,
+  safeArea: {
+    alignItems: 'center',
+    flex: 1
   }
 });
 
