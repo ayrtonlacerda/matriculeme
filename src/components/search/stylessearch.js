@@ -10,14 +10,19 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     elevation: 4,
     shadowColor: 'black',
-    shadowOffset: { width: 10, height: 10 },
+    shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 1,
     shadowRadius: 15,
-    margin: 15
+    margin: 15,
+    flexDirection: 'row',
+    alignItems: 'center'
   },
   input: {
     fontSize: 16,
-    color: colors.white
+    color: colors.white,
+    //backgroundColor: colors.black,
+    width: 270,
+    marginLeft: 5,
   }
 });
 

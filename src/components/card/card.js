@@ -4,7 +4,7 @@ import { withNavigation } from 'react-navigation';
 import styles from './stylescard';
 
 const Card = props => {
-  console.tron.log(props);
+  // console.tron.log(props);
   const { showDisciplina, showAluno, showOferta, showStatus, showHistorico, data } = props;
 
   return (
