@@ -6,15 +6,19 @@ const styles = StyleSheet.create({
     flex: 1
   },
   safearea: {
-    // flex: 1,
+    //flex: 1,
     alignItems: 'center'
-    // paddingHorizontal: 15,
+    //paddingHorizontal: 15,
   },
   loaderView: {
     width: 200,
     height: 200,
     //backgroundColor: '#aaa',
   },
+  loader: {
+    width: 200,
+    height: 200,
+  }
 });
 
 export default styles;

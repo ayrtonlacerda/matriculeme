@@ -1,18 +1,39 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
-import styles from './ofertastyles';
-import { Header } from '../../components';
+import styles from './stylesoferta';
+import { Card, Header } from '../../components';
 
-const Oferta = () => (
-  <View style={styles.container}>
-    <Header title="Oferta" showExit />
-    <Text>componentName</Text>
-  </View>
-);
-
-Oferta.navigationOptions = {
-  tabBarIcon: ({ tintColor }) => <Icon name="md-search" size={28} color={tintColor} />
+const oferta = {
+  codigo: 'A',
+  disciplina: {
+    codigo: 167975,
+    nome: 'METODOLOGIA E DESENVOLVIMENTO DE SOFWARE'
+  },
+  periodoLetivo: {
+    ano: 2017,
+    numero: 1
+  },
+  numeroVagas: 10,
+  numeroMatriculas: 0,
+  listaHorarioAula: [
+    {
+      dia: 'QUA',
+      hora: '08:00-09:50'
+    },
+    {
+      dia: 'SEX',
+      hora: '08:00-09:50'
+    }
+  ]
 };
+
+const Oferta = props => (
+    <View style={styles.container}>
+      <Header title="Oferta" showBack />
+      <View style={styles.safeArea}>
+        <Card showOferta data={oferta} />
+      </View>
+    </View>
+  );
 
 export default Oferta;

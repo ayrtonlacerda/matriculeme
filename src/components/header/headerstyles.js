@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
   concert: {
     height: 30,
     width: 30,
-    marginHorizontal: 10
+    marginHorizontal: 10,
+    // backgroundColor: colors.black
   },
   icon: {
     height: 30,

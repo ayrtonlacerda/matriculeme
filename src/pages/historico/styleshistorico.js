@@ -5,16 +5,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1
   },
-  safearea: {
-    // flex: 1,
-    alignItems: 'center'
-    // paddingHorizontal: 15,
-  },
-  loaderView: {
-    width: 200,
-    height: 200,
-    //backgroundColor: '#aaa',
-  },
+  safeArea: {
+    alignItems: 'center',
+    flex: 1
+  }
 });
 
 export default styles;
