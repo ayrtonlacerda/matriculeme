@@ -69,7 +69,7 @@ const Card = props => {
         </TouchableOpacity>
       )}
       {showAluno && (
-        <TouchableOpacity onPress={() => props.navigation.navigate('Aluno')}>
+        <TouchableOpacity onPress={() => props.navigation.navigate('Aluno', data.matricula)}>
           <View>
             <View style={styles.titleView}>
               <Text style={styles.title}>{data.matricula}</Text>
